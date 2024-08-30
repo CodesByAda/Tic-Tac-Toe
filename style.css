@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: aquamarine;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px auto;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    width: 90%;
+    grid-template-columns:repeat(3, 100px);
+    grid-template-rows: repeat(3,100px);
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+.cells {
+    background-color: wheat;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.statusArea {
+    margin: 30px auto;
+    width: 300px;
+    text-align: center;
+}
+
+.statusArea h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.statusArea button {
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    background-color: aqua;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
